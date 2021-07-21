@@ -2,14 +2,14 @@ function timeConverter(num) {
     var hours = Math.floor(num/60);
     var minutes = num % 60;
     if (hours == 1) {
-        message1 = "1Hour, ";
+        message1 = "1 Hour, ";
     } else {
-        message1 = hours + "Hours, ";
+        message1 = hours + " Hours, ";
     }
     if (minutes == 1) {
-        message2 = "1Minute";
+        message2 = "1 Minute";
     } else {
-        message2 = minutes + "Minutes";
+        message2 = minutes + " Minutes";
     }
     return message1 + message2;
 }
