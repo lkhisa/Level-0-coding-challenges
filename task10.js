@@ -8,6 +8,6 @@ function commonLetters(s1, s2) {
             result.push(ls2[i]);
         }
     }
-    return "Common letters: " + result;
+    console.log("Common letters: " + result);
 }   
-console.log(commonLetters("House", "Computers"));
+commonLetters("House", "Computers");
