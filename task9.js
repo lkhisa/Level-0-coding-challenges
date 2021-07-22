@@ -8,7 +8,7 @@ function showVowels(statement) {
             }    
         }
     }
-    return "Vowels: " + result;
+    console.log("Vowels: " + result);
 }
 
-console.log(showVowels("Umuzi"));
+showVowels("Umuzi");
