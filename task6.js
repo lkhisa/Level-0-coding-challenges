@@ -10,4 +10,3 @@ function maximum(num1, num2, num3) {
 console.log(maximum(9, 11, 2));
 console.log(maximum(1, 5, 2));
 console.log(maximum(1, 22, 3, 2));
-console.log(maximum(3, 2, 4, 10));
